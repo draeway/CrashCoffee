@@ -1,0 +1,559 @@
+html, body {
+    margin: 0;
+    padding:0;
+    font-family: sans-serif;
+}
+
+/*-TEXT-*/
+
+.quote {
+    font-size:20px;
+    font-family: 'Roboto-Condensed', sans-serif;
+    margin:10px;
+}
+
+h1{
+    color: darkgreen;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;!important;
+    font-size: 45px!important;
+    text-shadow: 3px 3px 3px #DCDCDC;
+}
+
+h3 {
+    color: black;
+    text-align: center;
+    margin: auto;
+    font-family: 'Roboto Condensed', sans-serif;!important;
+    font-size: 15px!important;
+    text-shadow: 3px 3px 3px #DCDCDC;
+}
+
+.header {
+    color: black;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 45px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    text-shadow: 3px 3px 5px darkgrey;
+    
+}
+
+.header1 {
+    color: black;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 35px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    text-shadow: 3px 3px 5px darkgrey;
+    
+}
+
+.col-sm-6 {
+    color: black;
+    text-align: left;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+   
+    
+}
+
+.col-sm-4 {
+    color: black;
+    text-align: auto;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 0px;   
+}
+
+
+
+.references {
+    animation: pulse 5s infinite;
+     color: black;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-shadow: 2px 2px 6px grey;
+    font-size: 45px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    
+}
+
+.thumbnail {
+    color: darkgreen;
+    text-align: auto;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    
+}
+
+.quote { 
+color: black;
+    text-align: auto;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 22px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+}
+
+.quote1 {
+    color: saddlebrown;
+    text-align: auto;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 22px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+}
+
+/*-END OF TEXT-*/
+
+/*back to top button*/
+  #myBtn {
+        position: fixed;
+        bottom: 10px;
+        float: right;
+        right: 5%;
+        left: 95%;
+        max-width: 50px;
+        width: 100%;
+        font-size: 12px;
+        border-color: black;
+      font-family: 'Roboto Condensed', sans-serif;
+        background-color: darkgreen;
+        padding: 5px;
+        border-radius: 4px;
+
+    }
+#myBtn:hover {
+        background-color: black;
+    }
+
+/*end of back to top button*/
+
+/*images*/
+#fallingcoffee {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: opacity 3.5s;
+}
+
+/*end of images*/
+
+.row {
+    margin:auto;
+    text-align: center;
+}
+.space {
+    margin-bottom:60px;
+}
+.special-desc {
+    font-size:28px;
+}
+
+.special-img {
+    width:400px;
+    float:right;
+}
+
+/*--BANNER--*/
+.banner {
+
+    width: 1280x;
+    height: 615px;
+    border: 0px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+    text-align: center;
+    
+}
+
+    .centerbottle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+/*END OF BANNER*/
+
+/*-SHOP-*/
+
+.product { 
+    color: black;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-shadow: 2px 2px 6px grey;
+    font-size: 45px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    
+}
+
+    .card1 {
+    box-shadow: 4px 4px 10px;
+    width: 310px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 25px;
+    background-color: white;
+    padding: 11px;
+    border-style: solid;
+    border-color: #000000;;
+    border-width: 1px;
+}
+    
+    .card2 {
+    box-shadow: 4px 4px 10px;
+    width: 310px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 25px;
+    background-color: white;
+    padding: 11px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+}
+    
+    .card3 {
+    box-shadow: 4px 4px 10px;
+    width: 310px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 25px;
+    background-color: white;
+    padding: 11px;
+    border-style: solid;
+    border-color: #000000;;
+    border-width: 1px;
+}
+
+
+    .title {
+    color: black;
+    font-size: 36px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 10px;
+    text-shadow: 3px 3px 5px grey;
+    padding-left: 0px!important;
+    padding-bottom: 0px!important;
+}
+
+    .ref {
+    color: black;
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 5px;
+    text-shadow: 3px 3px 5px darkgrey;
+    padding-left: 0px!important;
+    padding-bottom: 0px!important;
+}
+    
+    .price {
+    color: saddlebrown;
+    font-size: 22px;
+    font-family: 'Roboto Condensed', sans-serif;  
+}
+
+    .productnumber {
+    color: darkgreen;
+    font-size: 13px;
+    font-family: 'Roboto Condensed', sans-serif; 
+}
+
+    .description {
+    color: darkgray;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif; 
+    padding-top: 5px;
+}
+
+    .reference {
+    color: darkgreen;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif; 
+    padding-top: 5px;
+    padding-left: 0px!important;
+    padding-bottom: 0px!important;
+}
+
+
+    
+    .grid-contain {
+    text-align: center
+}
+
+    .gridcontain {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: white;
+    justify-content: space-evenly;
+}
+
+    .grid-container3 {
+    background-color: white;
+}
+
+    .card1 button {
+    border: none;
+    outline: 1px;
+    padding: 10px;
+    color: white;
+    background-color: darkgreen;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 19px;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px #000000;
+}
+
+    .card1 button:hover {
+    background-color: limegreen;
+    color: black;
+    -webkit-transition: all 0.6s ease;
+    box-shadow: 3px 3px 5px #000000;
+}
+
+    .card2 button {
+    border: none;
+    outline: 1px;
+    padding: 10px;
+    color: white;
+    background-color: darkgreen;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 19px;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 20px; 
+    box-shadow: 3px 3px 5px #000000;
+}
+
+    .card2 button:hover {
+    background-color: limegreen;
+    color: black;
+    -webkit-transition: all 0.6s ease;
+    box-shadow: 3px 3px 5px #000000;
+}
+
+    .card3 button {
+    border: none;
+    outline: 1px;
+    padding: 10px;
+    color: white;
+    background-color: darkgreen;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 19px;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 25px; 
+    box-shadow: 3px 3px 5px #000000;
+}
+
+    .card3 button:hover {
+    background-color: limegreen;
+    color: black;
+    -webkit-transition: all 0.6s ease;
+    box-shadow: 3px 3px 5px #000000;
+}
+/*-end of shop-*/
+
+/*-animation*/
+
+.rotate {
+    display: inline-block;
+    -webkit-animation: rotate 8s linear infinite;
+    animation: rotate 8s linear infinite;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        color:black;
+        60%
+        color: darkgreen;
+    }
+    100% {
+        color: white;
+        animation-fill-mode: forwards;
+    }
+}
+
+/*-end of animation-*/
+
+
+/*-parallax-*/
+.large-img {
+    background-image: url("../img/parallaxphoto.jpeg");
+    background-repeat: fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    width:100%;
+    height:400px;
+    position:relative;
+}
+
+.tint {
+    background-color:rgba(0,0,0,0.24);
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+}
+
+.large-img-caption {
+    position:absolute;
+    width:100%;
+    height:60px;
+    line-height:60px;    
+    text-align:center;
+    top:50%;
+    margin-top:-30px;
+    font-size:50px;
+    color:white   
+    
+}
+
+
+/*parallax*/
+.contact {
+     color: black;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-shadow: 2px 2px 6px grey;
+    font-size: 45px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    
+}
+
+/*-Form Validation-*/
+
+    .hidden {
+    display: none;
+}
+
+    .valid-field {
+    color: green;
+}
+
+    .invalid-field {
+    color: red;
+}
+    label {
+    color: black;
+    font-size: 22px;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+
+    input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box; 
+    border: 3px solid #006400;
+    border-radius: 0px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+    input[type=email] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box; 
+    border: 3px solid #006400;
+    border-radius: 0px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+    select {
+    width: 50%;
+    box-sizing: border-box; 
+    border: 3px solid #006400;
+    border-radius: 0px;
+}
+
+    .select {
+    color: black;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 0px;
+}
+
+    textarea {
+    width: 50%;
+    height: 50%;
+    padding: 10px 10px;
+    margin: 6px ;
+    box-sizing: border-box; 
+    border: 3px solid #006400;
+    border-radius: 0px;
+}
+
+    textarea:focus {
+    background-color: lightgrey;
+}
+
+    input[type=submit] {
+    background-color: darkgreen;
+    border-color: black;
+    color: white;
+    font-size: 18px;
+    padding: 7px 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    box-shadow: 3px 3px 5px #666666;
+}
+
+    input[type=submit]:hover {
+    background-color: limegreen;
+    border-color: #000000;
+    color: white;
+    box-shadow: 3px 3px 5px #666666;
+    -webkit-transition: all 0.7s ease;
+}
+
+    input:focus {
+    background-color: lightgray;
+        
+/*-Form Validation-*/
+        
+.button-container {
+    padding:30px;
+    text-align:center;
+}
